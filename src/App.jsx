@@ -1,6 +1,6 @@
 // App.jsx
 import "./App.css";
-import ActiveListing from "./Pages/ActiveListing";
+import ActiveListingPages from "./Pages/ActiveListingPage";
 import Header from "./Components/Header";
 import LandingPage from "./Pages/LandingPage";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
@@ -20,7 +20,7 @@ function AppWrapper() {
       <Header forceScrolled={forceScrolled} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/activeListing" element={<ActiveListing />} />
+        <Route path="/ActiveListingPages" element={<ActiveListingPages />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/about" element={<AboutSection />} />
         <Route path="/contact" element={<Contact />} />

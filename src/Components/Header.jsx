@@ -42,7 +42,7 @@ const Header = ({ forceScrolled = false }) => {
             <Link to="/" className="hover:text-gray-700 transition-colors">
               Home
             </Link>
-            <Link to="/activeListing" className="hover:text-gray-700 transition-colors">
+            <Link to="/ActiveListingPages" className="hover:text-gray-700 transition-colors">
               Active Listing
             </Link>
             <Link to="/testimonials" className="hover:text-gray-700 transition-colors">

@@ -5,7 +5,7 @@ import image2 from "../assets/rs=w_2480,h_1240,cg_true,m.webp";
 import image3 from "../assets/rs=w_2480,h_1240,cg_true.webp";
 import image4 from "../assets/qt=q_30.webp";
 
-const ActiveListing = () => {
+const ActiveListingPage = () => {
   return (
     <div className="mt-15 h-full w-full bg-white">
       <div className="flex justify-center gap-6 flex-col items-center mb-8">
@@ -39,4 +39,4 @@ const ActiveListing = () => {
   );
 };
 
-export default ActiveListing;
+export default ActiveListingPage;
