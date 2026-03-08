@@ -20,7 +20,7 @@ function AppWrapper() {
       <Header forceScrolled={forceScrolled} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/ActiveListingPages" element={<ActiveListingPages />} />
+        <Route path="/activeListingPages" element={<ActiveListingPages />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/about" element={<AboutSection />} />
         <Route path="/contact" element={<Contact />} />

@@ -72,7 +72,7 @@ const Header = ({ forceScrolled = false }) => {
             <Link to="/" onClick={toggleMenu} className="hover:text-black/80 py-2">
               Home
             </Link>
-            <Link to="/activeListing" onClick={toggleMenu} className="hover:text-black/80 py-2">
+            <Link to="/activeListingPages" onClick={toggleMenu} className="hover:text-black/80 py-2">
               Active Listing
             </Link>
             <Link to="/testimonials" onClick={toggleMenu} className="hover:text-black/80 py-2">
